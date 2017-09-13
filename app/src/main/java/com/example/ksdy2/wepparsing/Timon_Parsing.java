@@ -53,6 +53,7 @@ public class Timon_Parsing extends AsyncTask<Void, Void, Void> {
             String temp_result = btnK.text().toString().trim();
             temp_result = temp_result.replace(",", "");
             total_list = Integer.parseInt(temp_result);
+            Log.e("아이템개수", btnK.text().toString());
 
 
         } catch (IOException e) {
